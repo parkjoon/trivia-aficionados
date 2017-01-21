@@ -20,9 +20,9 @@ export default class Header extends React.Component {
                                             <i className="fa fa-bars"></i>
                                         </button>
                                         <ul className="header-social-icons social-icons hidden-xs">
-                                            <li className="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i className="fa fa-facebook"></i></a></li>
-                                            <li className="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i className="fa fa-twitter"></i></a></li>
-                                            <li className="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i className="fa fa-linkedin"></i></a></li>
+                                            <li className="social-icons-facebook"><a href="https://www.facebook.com/Trivia-Aficionados-409506256056717/" target="_blank" title="Facebook"><i className="fa fa-facebook"></i></a></li>
+                                            <li className="social-icons-twitter"><a href="https://twitter.com/TriviaMN" target="_blank" title="Twitter"><i className="fa fa-twitter"></i></a></li>
+                                            <li className="social-icons-instagram"><a href="https://www.instagram.com/triviaaficionados/" target="_blank" title="Instagram"><i className="fa fa-instagram"></i></a></li>
                                         </ul>
                                         <div className="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1 collapse">
                                             <nav>
@@ -35,6 +35,9 @@ export default class Header extends React.Component {
                                                     </li>
                                                     <li className={this.props.view == 'calendar' ? 'active' : ''}>
                                                         <Link to='/calendar'>Calendar</Link>
+                                                    </li>
+                                                    <li className={this.props.view == 'privateEvents' ? 'active' : ''}>
+                                                        <Link to='/private_events'>Private Events</Link>
                                                     </li>
                                                     <li className={this.props.view == 'locations' ? 'active' : ''}>
                                                         <Link to='/locations'>Locations</Link>

@@ -11,7 +11,7 @@ export default class Home extends React.Component {
                 <Header view='home' />
 
                 <div role="main" className="main">
-    				<Banner />
+    				<Banner view={'home'} />
 
     				<div className="container">
     					<div className="row mb-xl mt-xlg">
