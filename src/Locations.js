@@ -84,6 +84,7 @@ export default class Locations extends React.Component {
     				</div>
 
                     <div id="googlemaps" className="google-map"></div>
+                    <div className="container"><div className="row mt-xl mb-sm"></div></div>
     			</div>
 
                 <Footer />

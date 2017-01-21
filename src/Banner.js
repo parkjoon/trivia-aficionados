@@ -95,7 +95,7 @@ export default class Banner extends React.Component {
 					<div id="revolutionSlider" className="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{"delay": 9000, "gridwidth": 800, "gridheight": 320, "spinner": "off"}'>
 						<ul>
 							<li data-transition="fade">
-								<img src="/src/assets/video/landing.jpg"
+								<img src="/src/assets/video/landing-demo.jpg"
 									alt=""
 									data-bgposition="center center"
 									data-bgfit="cover"
@@ -107,7 +107,7 @@ export default class Banner extends React.Component {
 									data-volume="mute"
 									data-videowidth="100%"
 									data-videoheight="100%"
-									data-videomp4="video/landing.mp4"
+									data-videomp4="/src/assets/video/landing-demo.mp4"
 									data-videopreload="preload"
 									data-videoloop="loop"
 									data-forceCover="1"
