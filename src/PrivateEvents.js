@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 
 import Banner from './Banner';
 import Footer from './Footer';
@@ -70,7 +69,7 @@ export default class PrivateEvents extends React.Component {
         								</div>
         							</div>
         						</div>
-                                <Link to='/contact' className="btn btn-borders btn-lg btn-primary mt-xl" style={{display: 'inline-block'}}>Get a Quote!</Link>
+                                <a href="#" className="btn btn-borders btn-lg btn-primary mt-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="600" onClick={() => window.location = '/contact'} style={{display: 'inline-block'}}>Get a Quote!</a>
         					</div>
         				</section>
                     </div>
