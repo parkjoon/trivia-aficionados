@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 
 export default class Header extends React.Component {
     render() {
@@ -10,7 +9,7 @@ export default class Header extends React.Component {
                         <div className="header-row">
                             <div className="header-column">
                                 <div className="header-logo">
-                                    <Link to='/' className="logo"><img alt="Porto" width="131" height="40" src="/src/assets/img/demos/digital-agency/logo-digital-agency.png" /></Link>
+                                    <a className="logo" href="#" onClick={() => window.location = '/'}><img alt="Porto" width="131" height="40" src="/src/assets/img/demos/digital-agency/logo-digital-agency.png" /></a>
                                 </div>
                             </div>
                             <div className="header-column">
@@ -28,22 +27,22 @@ export default class Header extends React.Component {
                                             <nav>
                                                 <ul className="nav nav-pills" id="mainNav">
                                                     <li className={this.props.view == 'home' ? 'active' : ''}>
-                                                        <Link to='/'>Home</Link>
+                                                        <a href="#" onClick={() => window.location = '/'}>Home</a>
                                                     </li>
                                                     <li className={this.props.view == 'about' ? 'active' : ''}>
-                                                        <Link to='/about'>About</Link>
+                                                        <a href="#" onClick={() => window.location = '/about'}>About</a>
                                                     </li>
                                                     <li className={this.props.view == 'calendar' ? 'active' : ''}>
-                                                        <Link to='/calendar'>Calendar</Link>
+                                                        <a href="#" onClick={() => window.location = '/calendar'}>Calendar</a>
                                                     </li>
                                                     <li className={this.props.view == 'privateEvents' ? 'active' : ''}>
-                                                        <Link to='/private_events'>Private Events</Link>
+                                                        <a href="#" onClick={() => window.location = '/private_events'}>Private Events</a>
                                                     </li>
                                                     <li className={this.props.view == 'locations' ? 'active' : ''}>
-                                                        <Link to='/locations'>Locations</Link>
+                                                        <a href="#" onClick={() => window.location = '/locations'}>Locations</a>
                                                     </li>
                                                     <li className={this.props.view == 'contact' ? 'active' : ''}>
-                                                        <Link to='/contact'>Contact</Link>
+                                                        <a href="#" onClick={() => window.location = '/contact'}>Contact</a>
                                                     </li>
                                                 </ul>
                                             </nav>

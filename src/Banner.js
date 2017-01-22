@@ -3,7 +3,7 @@ import React from 'react';
 export default class Banner extends React.Component {
     renderAboutBanner() {
         return (
-            <section className="parallax section section-text-light section-parallax section-center mt-none mb-xl" data-plugin-parallax data-plugin-options='{"speed": 1.5}' data-image-src="/src/assets/img/demos/digital-agency/slides/demo-banner-1.jpg" style={{minHeight: '560px'}}>
+            <section className="parallax section section-text-light section-parallax section-center mt-none mb-xl" data-plugin-parallax data-plugin-options='{"speed": 1.5}' data-image-src={require('./assets/img/demos/digital-agency/slides/demo-banner-1.jpg')} style={{minHeight: '560px'}}>
                 <div className="container">
                     <div className="row mt-xl">
                         <div className="col-md-8 col-md-offset-2 mt-xlg">

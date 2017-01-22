@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 
 export default class Footer extends React.Component {
     render() {
@@ -8,7 +7,7 @@ export default class Footer extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-2">
-                            <Link to='/' className="logo"><img alt="Porto Website Template" className="img-responsive" src="/src/assets/img/demos/digital-agency/logo-digital-agency.png" /></Link>
+                            <a className="logo" href="#" onClick={() => window.location = '/'}><img alt="Porto Website Template" className="img-responsive" src="/src/assets/img/demos/digital-agency/logo-digital-agency.png" /></a>
                         </div>
                         <div className="col-sm-2 col-sm-offset-8 align-right">
                             <h5 className="mb-sm">Minneapolis</h5>
