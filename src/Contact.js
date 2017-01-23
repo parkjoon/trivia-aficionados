@@ -28,6 +28,10 @@ export default class Contact extends React.Component {
 
     onSubmitContactForm(e) {
         e.preventDefault();
+        $.post('http://demo0327592.mockable.io/email', { data: 'hello' })
+        .done(res => {
+            console.log('received response: ', res);
+        });
     }
 
     render() {
