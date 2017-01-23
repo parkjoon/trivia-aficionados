@@ -78,7 +78,7 @@ export default class Locations extends React.Component {
     					<div className="row mt-xl">
     						<div className="col-md-8 col-md-offset-2 mt-xlg title-with-video-custom center">
     							<h1 className="mt-xlg font-weight-semibold text-uppercase">Locations</h1>
-    							<p className="mb-none lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Nulla consequat massa quis enim.</p>
+    							<p className="mb-none lead">Visit our office for unmatched customer serivice.</p>
     						</div>
     					</div>
     				</div>
