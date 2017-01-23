@@ -16,7 +16,7 @@ var config = require('./webpack.config');
 new WebpackDevServer(webpack(config), {
 	publicPath: config.output.publicPath,
 	hot: false,
-	historyApiFallback: false
+	historyApiFallback: true
 }).listen(8080, '10.132.30.39', function (err, result) {
 	if(err) {
 		return console.log(err);
