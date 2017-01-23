@@ -1,17 +1,27 @@
 import React from 'react';
 
 export default class Header extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            logoColor: '#fff'
+        }
+    }
+
     render() {
         return (
             <header id="header" className="header-narrow header-semi-transparent" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 1, "stickySetTop": "0"}'>
                 <div className="header-body">
                     <div className="header-container container">
                         <div className="header-row">
-                            <div className="header-column">
-                                <div className="header-logo">
-                                    <a className="logo" href="#" onClick={() => window.location = '/'}><img alt="Porto" width="131" height="40" src="/src/assets/img/demos/digital-agency/logo-digital-agency.png" /></a>
+                            <a href="#" onClick={() => window.location = '/'}>
+                                <div className="header-column">
+                                    <div className="header-logo">
+                                        <div className="logo" style={{display: 'inline-block'}} onMouseOver={() => this.setState({ logoColor: '#89b837' })} onMouseOut={() => this.setState({ logoColor: '#fff' })}><img alt="Porto" height="40" src="/src/assets/img/trivia-aficionados/logo-3.png" /><span className="va-middle" style={{fontSize: '2em', color: this.state.logoColor }}>Trivia Aficionados</span></div>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                             <div className="header-column">
                                 <div className="header-row">
                                     <div className="header-nav header-nav-stripe">

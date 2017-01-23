@@ -17,7 +17,7 @@ export default class Calendar extends React.Component {
     					<div className="row mt-xl">
     						<div className="col-md-8 col-md-offset-2 mt-xlg title-with-video-custom center">
     							<h1 className="mt-xlg font-weight-semibold text-uppercase">Calendar</h1>
-    							<p className="mb-none lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Nulla consequat massa quis enim.</p>
+    							<p className="mb-none lead">Never miss out on our exciting events!</p>
     						</div>
     					</div>
     				</div>
