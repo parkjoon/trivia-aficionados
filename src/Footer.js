@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-2">
-                            <a className="logo" href="#" onClick={() => window.location = '/'}><img alt="Porto Website Template" className="img-responsive" src="/src/assets/img/trivia-aficionados/logo-3.png" /></a>
+                            <a className="logo" href="#" onClick={() => window.location = '/'}><img alt="Porto Website Template" className="img-responsive" src="/src/assets/img/trivia-aficionados/logos/logo-1.png" /></a>
                         </div>
                         <div className="col-sm-2 col-sm-offset-8 align-right">
                             <h5 className="mb-sm">Minneapolis</h5>

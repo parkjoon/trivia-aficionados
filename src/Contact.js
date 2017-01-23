@@ -41,7 +41,7 @@ export default class Contact extends React.Component {
     						<div className="row mt-xl">
     							<div className="col-md-8 col-md-offset-2 mt-xlg">
     								<h1 className="mt-xlg font-weight-semibold text-uppercase">Say Hello.</h1>
-    								<p className="mb-none lead">We're friendly and available to chat. Reach out to us any time and we'll happily answer your questions.</p>
+    								<p className="mb-none lead">We're friendly and available to chat.<br />Reach out to us any time and we'll happily answer your questions.</p>
     							</div>
     						</div>
     						<div className="row mt-lg">

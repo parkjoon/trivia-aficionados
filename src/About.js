@@ -13,6 +13,15 @@ export default class About extends React.Component {
                     <div role="main" className="main">
         				<Banner view={'about'} />
 
+                        <div className="container">
+        					<div className="row mt-xl">
+        						<div className="col-md-8 col-md-offset-2 mt-xlg title-with-video-custom center">
+        							<h1 className="mt-xlg font-weight-semibold text-uppercase">About Us</h1>
+        							<p className="mb-none lead">Learn about what makes us the best choice for your next event.</p>
+        						</div>
+        					</div>
+        				</div>
+
         				<div className="container">
         					<div className="row mb-xl mt-xlg">
         						<div className="col-md-9">
