@@ -38,6 +38,7 @@ export default class Contact extends React.Component {
             type: 'POST',
             dataType: 'json',
             username:'api',
+            headers: {'Authorization': 'Basic '+ btoa('api:key-249bb4d9ab3b8154775f927665f4a3ba')},
             password: 'key-249bb4d9ab3b8154775f927665f4a3ba',
             data: {
                 to: 'triviaaficionados@gmail.com',
