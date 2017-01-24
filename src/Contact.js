@@ -38,7 +38,7 @@ export default class Contact extends React.Component {
             type: 'POST',
             dataType: 'json',
             data: {
-                to: 'tyler@triviaaficionados.com',
+                to: 'triviaaficionados@gmail.com',
                 from: `${this.state.contactForm.name} ${this.state.contactForm.email}`,
                 subject: this.state.contactForm.subject,
                 text: this.state.contactForm.message
