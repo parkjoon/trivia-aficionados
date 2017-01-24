@@ -28,9 +28,23 @@ export default class Contact extends React.Component {
 
     onSubmitContactForm(e) {
         e.preventDefault();
-        $.post('http://demo0327592.mockable.io/email', { data: 'hello' })
-        .done(res => {
-            console.log('received response: ', res);
+        // $.post('https://api.mailgun.net/v3/triviaaficionados.com/messages', { data: 'hello' })
+        // .done(res => {
+        //     console.log('received response: ', res);
+        // });
+
+        $.ajax({
+            url: 'https://api.mailgun.net/v3/triviaaficionados.com/messages',
+            type: 'POST',
+            dataType: 'json',
+            username:'api',
+            password: 'key-249bb4d9ab3b8154775f927665f4a3ba',
+            data: {
+                to: 'triviaaficionados@gmail.com',
+                from: `${this.state.contactForm.name} ${this.state.contactForm.email}`,
+                subject: this.state.contactForm.subject,
+                text: this.state.contactForm.message
+            }
         });
     }
 
