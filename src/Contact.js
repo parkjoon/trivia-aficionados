@@ -39,6 +39,14 @@ export default class Contact extends React.Component {
                 text: this.state.contactForm.message
             }
         });
+        this.setState({
+            contactForm: {
+                name: '',
+                email: '',
+                subject: '',
+                message: ''
+            }
+        });
     }
 
     render() {
