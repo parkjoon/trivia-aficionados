@@ -46,10 +46,10 @@ export default class Contact extends React.Component {
         });
 
         this.refs.container.success(
-            'Welcome welcome welcome!!',
-            'You are now home my friend. Welcome home my friend.', {
-            timeOut: 30000,
-            extendedTimeOut: 10000
+            null,
+            'Your message has been successfully sent!', {
+            timeOut: 5000,
+            extendedTimeOut: 3000
         });
 
         this.setState({
