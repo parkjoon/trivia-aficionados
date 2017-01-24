@@ -3,6 +3,11 @@ import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 
+var ReactToastr = require('react-toastr');
+var { ToastContainer } = ReactToastr;
+
+var ToastMessageFactory = React.createFactory(ReactToastr.ToastMessage.animation);
+
 export default class Contact extends React.Component {
     constructor(props) {
         super(props);
@@ -39,6 +44,14 @@ export default class Contact extends React.Component {
                 text: this.state.contactForm.message
             }
         });
+
+        this.refs.container.success(
+            'Welcome welcome welcome!!',
+            'You are now home my friend. Welcome home my friend.', {
+            timeOut: 30000,
+            extendedTimeOut: 10000
+        });
+
         this.setState({
             contactForm: {
                 name: '',
@@ -52,6 +65,10 @@ export default class Contact extends React.Component {
     render() {
         return (
             <div>
+                <ToastContainer ref="container"
+                        toastMessageFactory={ToastMessageFactory}
+                        className="toast-top-right" />
+
                 <Header view='contact' />
 
                 <div role="main" className="main">
