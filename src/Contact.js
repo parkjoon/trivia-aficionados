@@ -38,7 +38,7 @@ export default class Contact extends React.Component {
             type: 'POST',
             dataType: 'json',
             data: {
-                to: 'triviaaficionados@gmail.com',
+                to: 'tyler@triviaaficionados.com',
                 from: `${this.state.contactForm.name} ${this.state.contactForm.email}`,
                 subject: this.state.contactForm.subject,
                 text: this.state.contactForm.message
@@ -88,7 +88,7 @@ export default class Contact extends React.Component {
     										<ul className="list list-icons mt-xlg">
     											<li><i className="fa fa-map-marker"></i> <strong>Address:</strong> 2433 E 117 Street, Burnsville, MN, US</li>
     											<li><i className="fa fa-phone"></i> <strong>Phone:</strong>{' +1 (612) 470-1352'}</li>
-    											<li><i className="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:triviaaficionados@gmail.com">triviaaficionados@gmail.com</a></li>
+    											<li><i className="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:tyler@triviaaficionados.com">tyler@triviaaficionados.com</a></li>
     										</ul>
     									</div>
     								</div>

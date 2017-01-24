@@ -27,7 +27,7 @@ export default class Footer extends React.Component {
                                         <li className="social-icons-twitter"><a href="https://twitter.com/TriviaMN" target="_blank" title="Twitter"><i className="fa fa-twitter"></i></a></li>
                                         <li className="social-icons-instagram"><a href="https://www.instagram.com/triviaaficionados/" target="_blank" title="Instagram"><i className="fa fa-instagram"></i></a></li>
                                     </ul>
-                                    <span className="footer-email-custom pull-right"><i className="fa fa-envelope text-color-primary"></i> <a href="mailto:triviaaficionados@gmail.com">triviaaficionados@gmail.com</a></span>
+                                    <span className="footer-email-custom pull-right"><i className="fa fa-envelope text-color-primary"></i> <a href="mailto:tyler@triviaaficionados.com">tyler@triviaaficionados.com</a></span>
                                 </div>
                             </div>
                         </div>
