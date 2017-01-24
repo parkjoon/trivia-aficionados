@@ -18,7 +18,7 @@ export default class Header extends React.Component {
                             <a href="#" onClick={() => window.location = '/'}>
                                 <div className="header-column">
                                     <div className="header-logo">
-                                        <div className="logo" style={{display: 'inline-block'}} onMouseOver={() => this.setState({ logoColor: '#89b837' })} onMouseOut={() => this.setState({ logoColor: '#fff' })}><img alt="Porto" height="40" src="/src/assets/img/trivia-aficionados/logos/logo-2.png" /><span className="va-middle" style={{fontSize: '1.5em', color: this.state.logoColor }}>Trivia Aficionados</span></div>
+                                        <div className="logo" style={{display: 'inline-block'}} onMouseOver={() => this.setState({ logoColor: '#89b837' })} onMouseOut={() => this.setState({ logoColor: '#fff' })}><img alt="Porto" height="65" style={{ marginTop: '0px', marginBottom: '0px', marginLeft: '0px', marginRight: '0px' }} src="/src/assets/img/trivia-aficionados/logos/logo-2.png" /><span className="va-middle" style={{fontSize: '1.5em', color: this.state.logoColor }}>Trivia Aficionados</span></div>
                                     </div>
                                 </div>
                             </a>
