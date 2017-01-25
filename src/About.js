@@ -26,7 +26,7 @@ export default class About extends React.Component {
         					<div className="row mb-xl mt-xlg">
         						<div className="col-md-9">
         							<blockquote className="mt-xl ml-lg blockquote-secondary">
-        								<p>We let you decide what night and time you want to schedule trivia, We work around your availability. Our rates are competitive and reasonable and vary based on the term of the agreement.</p>
+        								<p>We let you decide what night and time you want to schedule trivia, We work around your availability and offer competitive prices.</p>
         								<footer>Tyler Mosher, CEO</footer>
         							</blockquote>
         						</div>
@@ -79,7 +79,7 @@ export default class About extends React.Component {
                                         <div className="divider divider-primary divider-small divider-small-center mb-xl">
         									<hr />
         								</div>
-        								<p className="lead mb-none">Writing quizzes is our passion. Our quizzes are unique, engaging, and interactive. We incorporate sound and video, making the experience more engaging and memorable with our audience.</p>
+        								<p className="lead mb-none">Writing quizzes is our passion. Our quizzes are unique, engaging, and interactive. We incorporate sound and video, making the experience interactive and memorable with our audience.</p>
         							</div>
         						</div>
     						</div>
