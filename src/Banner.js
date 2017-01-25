@@ -42,7 +42,7 @@ export default class Banner extends React.Component {
     }
 
     renderHomeBanner() {
-        return <section className="parallax section section-text-light section-parallax section-center mt-none mb-xl" data-plugin-parallax data-plugin-options='{"speed": 1.5}' data-image-src="/src/assets/img/trivia-aficionados/banners/banner-1.png" style={{minHeight: '630px'}}></section>
+        return <section className="parallax section section-text-light section-parallax section-center mt-none mb-xl" data-plugin-parallax data-plugin-options='{"speed": 1.5}' data-image-src="/src/assets/img/trivia-aficionados/banners/banner-1.png" style={{minHeight: '650px'}}></section>
     }
 
     renderLocationsBanner() {
