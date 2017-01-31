@@ -87,7 +87,7 @@ export default class Contact extends React.Component {
     										<h4 className="mt-md mb-none">Minneapolis</h4>
     										<ul className="list list-icons mt-xlg">
     											<li><i className="fa fa-map-marker"></i> <strong>Address:</strong> 2433 E 117 Street, Burnsville, MN, US</li>
-    											<li><i className="fa fa-phone"></i> <strong>Phone:</strong>{' +1 (612) 470-1352'}</li>
+    											<li><i className="fa fa-phone"></i> <strong>Phone:</strong>{' +1 (612) 479-1352'}</li>
     											<li><i className="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:tyler@triviaaficionados.com">tyler@triviaaficionados.com</a></li>
     										</ul>
     									</div>

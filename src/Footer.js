@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
                         </div>
                         <div className="col-sm-2 col-sm-offset-8 align-right">
                             <h5 className="mb-sm">Minneapolis</h5>
-                            <span className="phone font-size-sm"><i className="fa fa-phone text-color-primary"></i>{' +1 (612) 470-1352'}</span>
+                            <span className="phone font-size-sm"><i className="fa fa-phone text-color-primary"></i>{' +1 (612) 479-1352'}</span>
                         </div>
                     </div>
                     <div className="row">
